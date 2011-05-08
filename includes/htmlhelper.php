@@ -215,20 +215,19 @@ function endhtml(){
 <div id='footer'>
 <p>
 AbreLibros es un proyecto de <a href="http://tecnilogica.com" target="_blank">Tecnilógica</a> 
-para <a href="http://www.abredatos.es/" target="_blank">AbreDatos 2011</a><br/>
+para <a href="http://www.abredatos.es/" target="_blank">AbreDatos 2011</a> - <a href="http://code.google.com/p/abrelibros/" target="_blank">Código fuente</a>
+<br/>
 Hemos usado <a href="http://net.tutsplus.com/tutorials/php/how-to-authenticate-users-with-twitter-oauth/" target="_blank">Nettuts+</a>, 
 <a href="https://github.com/abraham/twitteroauth" target="_blank">TwitterOAuth</a>,
 <a href="http://www.txt2re.com/" target="_blank">txt2re</a>,
 <a href="http://www.apachefriends.org/es/xampp.html" target="_blank">xampp</a>,
 <a href="http://jquery.com/" target="_blank">jQuery</a>,
 <a href="http://www.google.com/webfonts" target="_blank">Google Web Fonts</a>,
-<a href="http://www.ajaxload.info/" target="_blank">Ajaxload</a>,
+<a href="http://www.ajaxload.info/" target="_blank">Ajaxload</a>,<br/>
 <a href="http://tutorialzine.com/2010/02/free-xhtml-css3-website-template/" target="_blank">Tutorialzine</a>,
 <a href="http://www.famfamfam.com/lab/icons/silk/" target="_blank">Silk Icons</a>,
-<a href="http://www.uservoice.com/" target="_blank">UserVoice</a>
-
-<br/>
-<a href="http://code.google.com/p/abrelibros/" target="_blank">Código fuente</a>
+<a href="http://www.uservoice.com/" target="_blank">UserVoice</a>,
+<a href="http://projects.korrelboom.com/gradient-generator/" target="_blank">Cross-Browser Gradient Generator</a>
 </p>
 </div>
 </div>
