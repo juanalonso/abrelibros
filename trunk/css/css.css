@@ -87,49 +87,59 @@ td {margin: 10px; padding: 10px; border-right-width: 1px; border-right-style: so
 
 .button:hover {text-decoration: none;}
 
-.white {background: -moz-linear-gradient(center top , #FFFFFF, #EDEDED) repeat scroll 0 0 transparent; border: 1px solid #B7B7B7; color: #606060;}
-.white:visited {background: -moz-linear-gradient(center top , #EDEDED, #FFFFFF) repeat scroll 0 0 transparent; color: #606060;}
-.white:hover {background: -moz-linear-gradient(center top , #FFFFFF, #DCDCDC) repeat scroll 0 0 transparent; color: #606060;}
-.white:active {background: -moz-linear-gradient(center top , #EDEDED, #FFFFFF) repeat scroll 0 0 transparent; color: #606060;}
+.white {
+	background: -moz-linear-gradient(center top , #FFFFFF, #EDEDED) repeat scroll 0 0 transparent; 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255,255,255,1)), color-stop(1, rgba(237,237,237,1)));
+    border: 1px solid #B7B7B7; color: #606060;}
+.white:visited, .white:active {
+	background: -moz-linear-gradient(center top , #EDEDED, #FFFFFF) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1, rgba(255,255,255,1)), color-stop(0, rgba(237,237,237,1)));
+    color: #606060;}
+.white:hover {
+	background: -moz-linear-gradient(center top , #FFFFFF, #DCDCDC) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255,255,255,1)), color-stop(1, rgba(220,220,220,1)));
+    color: #606060;}
 
 .gray {
     background: -moz-linear-gradient(center top , #888888, #575757) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(136,136,136,1)), color-stop(1, rgba(87,87,87,1)));
     border: 1px solid #555555;
     color: #E9E9E9;
 }
-.gray:visited {
+.gray:visited, .gray:active {
     background: -moz-linear-gradient(center top , #575757, #888888) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1, rgba(136,136,136,1)), color-stop(0, rgba(87,87,87,1)));
     color: #FFF;
 }
 .gray:hover {
-    background: -moz-linear-gradient(center top , #757575, #4B4B4B) repeat scroll 0 0 transparent; color: #FFF;
-}
-.gray:active {
-    background: -moz-linear-gradient(center top , #575757, #888888) repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(center top , #757575, #4B4B4B) repeat scroll 0 0 transparent; 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(117,117,117,1)), color-stop(1, rgba(75,75,75,1)));
     color: #FFF;
 }
-
-
+ 
 .blue {
     background: -moz-linear-gradient(center top , #00ADEE, #0078A5) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0,173,238,1)), color-stop(1, rgba(0,120,165,1)));
     border: 1px solid #0076A3;
     color: #D9EEF7;
 }
-.blue:visited {
+.blue:visited, .blue:active {
     background: -moz-linear-gradient(center top , #0078A5, #00ADEE) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1, rgba(0,173,238,1)), color-stop(0, rgba(0,120,165,1)));
     color: #FFF;
 }
 .blue:hover {
-    background: -moz-linear-gradient(center top , #0095CC, #00678E) repeat scroll 0 0 transparent;  color: #FFF;
-}
-.blue:active {
-    background: -moz-linear-gradient(center top , #0078A5, #00ADEE) repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(center top , #0095CC, #00678E) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0,149,204,1)), color-stop(1, rgba(0,103,142,1)));
     color: #FFF;
 }
 
 
 
-.biblioselected {background: -moz-linear-gradient(center top , #F8F7E5, #C4BF88) repeat scroll 0 0 transparent;}
+.biblioselected {
+	background: -moz-linear-gradient(center top , #F8F7E5, #C4BF88) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(248,247,229,1)), color-stop(1, rgba(196,191,136,1)));
+}
 
 #headertit {float: left; margin-left:70px; width: 350px;}
 
