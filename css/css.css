@@ -54,7 +54,7 @@ td {margin: 10px; padding: 10px; border-right-width: 1px; border-right-style: so
 
 .fleft{ float:left; margin-right: 5px;}
 
-.flright{float:right; margin-right: 5px;}
+.flright{float:right; margin-right:5px;}
 
 .clear:after{content: "."; display: block; height: 0; clear: both; visibility: hidden;}
 
@@ -76,7 +76,7 @@ td {margin: 10px; padding: 10px; border-right-width: 1px; border-right-style: so
 
 #user .fleft img { border: 2px solid #C5BF85;}
 
-
+.extra {height:20px;}
 
 .button {border-radius: 0.5em 0.5em 0.5em 0.5em; -moz-border-radius: 0.5em 0.5em 0.5em 0.5em; -webkit-border-radius: 0.5em 0.5em 0.5em 0.5em;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
