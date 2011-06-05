@@ -70,7 +70,7 @@
   <h2>Busca los libros que te interesan</h2>
   <form action="bibliosearch.php">
     <input type="text" placeholder="Busca el libro por autor, título, editorial, isbn..." name="searchtext"/>
-    <input class="button white" type="submit" value="Buscar"/>
+    <input class="button blue" type="submit" value="buscar"/>
   </form>
   <div class="space"><br clear="all"></div>
 FIN;
